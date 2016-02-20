@@ -8,5 +8,7 @@
         android:textAppearance="?android:attr/textAppearanceLarge"
         android:text="Home"
         android:id="@+id/textView2"
-        android:layout_gravity="center" />
+        android:layout_gravity="center_horizontal|top"
+        android:textSize="40dp" />
+
 </FrameLayout>
