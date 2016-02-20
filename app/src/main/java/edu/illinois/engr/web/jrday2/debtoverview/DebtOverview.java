@@ -89,18 +89,19 @@ public class DebtOverview extends AppCompatActivity
         if (id == R.id.nav_camera)
         {
             // Handle the camera action
-            fn.beginTransaction().replace(R.id.content_frame, new Owes()).commit();
+            fn.beginTransaction().replace(R.id.content_frame, new Home()).commit();
         }
         else if (id == R.id.nav_gallery)
         {
-            fn.beginTransaction().replace(R.id.content_frame, new Transactions()).commit();
+            fn.beginTransaction().replace(R.id.content_frame, new Owes()).commit();
         }
         else if (id == R.id.nav_slideshow)
         {
-            fn.beginTransaction().replace(R.id.content_frame, new Receipt()).commit();
+            fn.beginTransaction().replace(R.id.content_frame, new Transactions()).commit();
         }
         else if (id == R.id.nav_manage)
         {
+            fn.beginTransaction().replace(R.id.content_frame, new Receipt()).commit();
         }
 
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
