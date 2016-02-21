@@ -11,6 +11,8 @@
         android:layout_gravity="center_horizontal|top"
         android:textSize="40dp"
         android:gravity="center"
-        android:textStyle="bold" />
+        android:textStyle="bold"
+        android:background="#c9201b1b"
+        android:textColor="#ffffff" />
 
 </FrameLayout>
